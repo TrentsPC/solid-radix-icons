@@ -2,7 +2,7 @@ import { splitProps } from "solid-js";
 import { IconProps } from "./types";
 
 export default function HeartIcon(props: IconProps) {
-  const [_, rest] = splitProps(props, ["color"]);
+  const [, rest] = splitProps(props, ["color"]);
   return (
     <svg
       width="15"
