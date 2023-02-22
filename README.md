@@ -2,9 +2,25 @@
   <img src="https://assets.solidjs.com/banner?project=Radix%20Icons" alt="Solid Radix Icons" />
 </p>
 
-# Solid Radix Icons [![NPM Version](https://img.shields.io/npm/v/solid-radix-icons.svg?style=for-the-badge)](https://www.npmjs.org/package/solid-radix-icons)
+# Solid Radix Icons [![NPM Version](https://img.shields.io/npm/v/solid-radix-icons?style=flat-square)](https://www.npmjs.org/package/solid-radix-icons)
 
 An unofficial port of the crisp set of 15×15 icons designed by the [WorkOS](https://workos.com) team.
+
+## Usage
+
+```tsx
+import { FaceIcon, ImageIcon, SunIcon } from 'solid-radix-icons'
+
+function MyComponent() {
+  return (
+    <div>
+      <FaceIcon />
+      <SunIcon />
+      <ImageIcon />
+    </div>
+  )
+}
+```
 
 ## Documentation
 
