@@ -1,7 +1,7 @@
 {
   "name": "solid-radix-icons",
   "description": "Solid port of the Radix UI Icon Set",
-  "author": "Trent Mitchell-Borley",
+  "author": "Trent Mitchell-Borley <trent@trents.computer>",
   "contributors": [
     "Vlad Moroz <vlad@workos.com>",
     "Pedro Duarte",
