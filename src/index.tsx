@@ -1,6 +1,8 @@
 import { splitProps } from "solid-js";
 import { IconProps } from "./types";
 
+export type { IconProps } from "./types";
+
 export function HeartIcon(props: IconProps) {
   const [_, rest] = splitProps(props, ["color"]);
   return (
