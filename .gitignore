@@ -3,3 +3,6 @@ dist/
 .vscode/
 coverage/
 solid-radix-icons-*.tgz
+
+.DS_Store
+**/.DS_Store
